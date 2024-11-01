@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgg{
+  background: url("https://images.unsplash.com/photo-1514519273132-6a1abd48302c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNreXxlbnwwfDB8MHx8fDA%3D");
+  background-size: cover;
+  background-position: bottom;
+}
+form{
+  box-shadow: black 10px 10px 90px 10px 
+}
+#animate{
+  box-shadow: black 20px 20px 90px 20px 
+}
+
+
+@media (max-width:1300px) {
+  .f{
+    width: 80vw;
+  }
+  .info{
+  
+    height: 30vw;
+    width: 90vw;
+    padding: 3vw;
+  }
+  .hhh{
+    border: none;
+    font-size: 4vw;
+    margin-top: -1vw;
+   
+    
+  }
+  .h{
+    font-size: 2vw;
+  }
+  .dd{
+    margin-top: 2vw;
+  }
+}
+@media (max-width:1050px) {
+  .f{
+    width: 80vw;
+  }
+  .info{
+  
+    height: 38vw;
+    width: 90vw;
+    padding: 5vw;
+  }
+  .hhh{
+    border: none;
+    font-size: 4vw;
+    margin-top: -1vw;
+   
+    
+  }
+  .h{
+    font-size: 2.5vw;
+  }
+  .dd{
+    margin-top: 2vw;
+  }
+}
+@media (max-width:750px) {
+  .head{
+    font-size: 4vw;
+    text-align: center;
+    width: 100vw;
+  }
+  .f{
+    width: 80vw;
+  }
+  .info{
+  
+    height: 50vw;
+    width: 95vw;
+  }
+  .hhh{
+    border: none;
+    font-size: 4vw;
+    margin-top: -1vw;
+   
+    
+  }
+  .h{
+    font-size: 2.5vw;
+  }
+  .dd{
+    margin-top: 2vw;
+  }
+
+} 
+@media (max-width:500px) {
+  .head{
+    font-size: 7vw;
+    text-align: center;
+    width: 100vw;
+  }
+  .f{
+    width: 90vw;
+    
+    padding: 4vw;
+  }
+  .info{
+  
+    height: 80vw;
+    width: 95vw;
+    padding: 2vw;
+   
+    
+  }
+  .hhh{
+
+    border: none;
+    font-size: 6vw;
+    margin-top: -1vw;
+   
+    
+  }
+  .h{
+    font-size: 4vw;
+  }
+  .dd{
+    margin-top: 2vw;
+    display: flex;
+    
+  }
+}
+@media (max-width:400px) {
+  .f{
+    width: 90vw;
+    padding: 3vw;
+  }
+  .info{
+  
+    height: 75vw;
+    width: 100vw;
+    margin-top: -4vw;
+    padding: 2vw;
+  
+    
+  }
+  .hhh{
+
+    border: none;
+    font-size: 4vw;
+    margin-top: -1vw;
+   
+    
+  }
+  .h{
+    font-size: 3vw;
+    width: fit-content;;
+  }
+  .dd{
+    margin-top: 2vw;
+    display: flex;
+    
+  }
+}
+@media (max-width:300px) {
+  .f{
+    width: 80vw;
+    padding: 3vw;
+  }
+  .info{
+  
+    height:120vw;
+    width: 95vw;
+   padding: 2vw;
+    
+  }
+  .hhh{
+
+    border: none;
+    font-size: 10vw;
+    margin-top: 4vw;
+       
+  }
+
+  .h{
+  margin-top: 3vw;
+    font-size: 4.5vw;
+  }
+  .dd{
+    margin-top: 2vw;
+    display: flex;
+    
+  }
+}
+
+

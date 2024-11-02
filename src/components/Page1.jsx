@@ -6,7 +6,7 @@ import axios from "axios";
 ;
 
 const Page1 = () => {
-  const citykey = "a93411c562a250183d319e9c9991fe16";
+  const citykey = import.meta.env.VITE_CITY_API_KEY;
   const [load, setload] = useState(0); //maintaining error state
   const [city, setcity] = useState("");
   const [text, settext] = useState("");
@@ -57,7 +57,7 @@ const Page1 = () => {
 
   const data = async (cityname) => {
     try {
-      const key = "17322e540dee47cb93373426240111";
+      const key =import.meta.env.VITE_API_KEY;
 
       const response = await axios.get(
         `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${cityname}`

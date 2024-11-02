@@ -31,7 +31,7 @@ const Page1 = () => {
 
     const getcitythroughapi = async (longitude, latitude) => {
       const response = await axios.get(
-        `http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=${citykey}`
+        `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=${citykey}`
       );
 
       let cityname = response.data[0].name;
@@ -60,7 +60,7 @@ const Page1 = () => {
       const key =import.meta.env.VITE_API_KEY;
 
       const response = await axios.get(
-        `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${cityname}`
+        `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${cityname}`
       );
       let currentinfo = response.data.current;
       let forecastinfo = response.data.forecast.forecastday[0];
